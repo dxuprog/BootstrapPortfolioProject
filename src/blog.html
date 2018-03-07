@@ -36,27 +36,185 @@
             <a href="./blog.html">Hackathon Blog</a>
           </li>
           <li>
-              <a href="./dxu_resume_web.pdf">Resume</a>
+            <a href="./dxu_resume_web.pdf">Resume</a>
           </li>
           <li>
-              <a href="http://ca.linkedin.com/in/dxu228" target="_blank">
-                <i class="fab fa-linkedin fa-2x"></i>
-              </a>
-            </li>
-            <li>
-              <a href="http://www.github.com/dxuprog" target="_blank">
-                <i class="fab fa-github-square fa-2x"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://stackoverflow.com/users/2785233/davidx" target="_blank">
-                <i class="fab fa-stack-overflow fa-2x"></i>
-              </a>
-            </li>
+            <a href="http://ca.linkedin.com/in/dxu228" target="_blank">
+              <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+          </li>
+          <li>
+            <a href="http://www.github.com/dxuprog" target="_blank">
+              <i class="fab fa-github-square fa-2x"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://stackoverflow.com/users/2785233/davidx" target="_blank">
+              <i class="fab fa-stack-overflow fa-2x"></i>
+            </a>
+          </li>
         </ul>
       </div>
     </div>
   </nav>
+
+  <div class="container">
+    <h1>Hackathon Blog</h1>
+    <h5>This page highlights projects from hackathons in a small bite-sized form.</h5>
+    <div class="entry-content">
+      <div class="col-md-12">
+        <h3 class="h3-top date-text">December 2017</h3>
+      </div>
+      <div class="col-md-12">
+        <h3>Internal Company Hackathon: IoT Devices</h3>
+      </div>
+      <div>
+        <div class="col-md-8">
+          <h4>
+            What we built
+          </h4>
+          <p>
+            I can't say too much about this once because it's internal. But we utilized an array of 
+            <b>Estimote beacons</b> to determine positions of users inside a room. Data from the beacons were
+            aggregated and displayed to a front-end via <b>heatmap.js</b>.
+          </p>
+          <h4>
+            Technology used:
+          </h4>
+          <p>
+            Estimote Proximity Beacons, heatmap.js, AngularJS, Spring Boot
+          </p>
+          <h4>
+            Takeaways:
+          </h4>
+          <p>
+            The beacons last forever, and they are quite small. They can be hid in various spots and are battery powered.
+            In terms of position accuracy they are enough to distinguish someone's position within a couple feet to a beacon.
+            <b>Heatmap.js</b> is also a wonderful library that is simple to use. I can see it being used in a lot with maps and location data.
+          </p>
+          <p>
+            Our team took home <b>Best Themed Category</b>. The other projects we're all incredibly well done. I am amazed
+            by some of the engineers in this company.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <img class="photo" src="./estimote.jpg">
+          <i class="text-center">
+            Estimote Beacons used for IoT proximity tracking via Bluetooth.
+          </i>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="entry-content">
+        <div class="col-md-12">
+          <h3 class="h3-top date-text">October 2017</h3>
+        </div>
+        <div class="col-md-12">
+          <h3><a href="https://www.blogto.com/events/arthritishack/">ArthritisHack Toronto</a>: Ari Voice Assistant + Platform</h3>
+        </div>
+        <div>
+          <div class="col-md-8">
+            <h4>
+              What we built
+            </h4>
+            <p>
+              We built a platform in which users could share their knowledge about Arthritis. What surprised us is that many people
+              afflicted with Arthritis have an initial trouble building up a knowledge base about the condition, different treatments,
+              products and patient support programs. It didn't make sense to us that this problem should exist in the information age.
+            
+            </p>
+            <p>
+              We decided to build a knowledge platform that users could submit and rate products, articles and healthcare
+              professionals. Kind of like a Yelp for Arthritis.
+            </p>
+              With four developers on our team, we hit the ground running trying to push as much features we could.
+              It was ambitious: a progressive web app in Vue.js, a back-end powered by Firebase, a voice assistant using
+              Google's DialogFlow, and a Chrome extension for seamless integration.
+            </p>
+            <p>
+              In the end, I put together the Firebase back-end which stored the rating content, as well as handled
+              the back-end calls via Google Cloud Functions. I also built the voice assistant.
+            </p>
+            <h4>
+              Technology used:
+            </h4>
+            <p>
+              Vue.js, Firebase Database, Google Cloud Functions (JavaScript), DialogFlow, Chrome Extension Toolkit
+            </p>
+            <h4>
+              Takeaways:
+            </h4>
+            <p>
+              We ended up winning the <b>People's Choice</b> award, which felt great because it was first time I won a public hackathon.
+              I was introduced to Progressive web apps, and what my teammate built in Vue.js was amazing. I think I will look into this
+              concept and framework in future projects. It seems capable enough as a "build once" type app, in which it can handle web, 
+              and mobile at the same time. I also went deeper into the DialogFlow API and Google Cloud Functions. 
+              I was able to program content-rich responses to Google Assistant, in which voice + a carousel of photo and data was shown to the users.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <img class="photo" src="./estimote.jpg">
+            <i class="text-center">
+              Estimote Beacons used for IoT proximity tracking via Bluetooth.
+            </i>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="entry-content">
+          <div class="col-md-12">
+            <h3 class="h3-top date-text">December 2016</h3>
+          </div>
+          <div class="col-md-12">
+            <h3>Company Internal Hackaton:</a> Google Voice Assistant</h3>
+          </div>
+          <div>
+            <div class="col-md-8">
+              <h4>
+                What we built
+              </h4>
+              <p>
+                I can't go into the specifics, but we used Google's DialogFlow (API.AI at the time) to build a voice
+                assistant that interacted with our product. We had to create an "AI Gateway" built in Node.js which
+                acted as a passthrough for routing intents from the Voice Assistant, and translated them into
+                the appropriate server calls. I created a simple AngularJS component and leveraged the voice libraries
+                in HTML5 to prototype a in-app voice assistant, in which Google Assistant wasn't needed.
+              </p>
+              <h4>
+                Technology used:
+              </h4>
+              <p>
+                Google's DialogFlow, Node.js, Spring Boot, AngularJS
+              </p>
+              <h4>
+                Takeaways:
+              </h4>
+              <p>
+                Google's DialogFlow is an amazingly easy to use. It was so natural to build conversation actions, and it had great
+                one-click integrations with popular assistant services such as Google Voice Assistant and Alexa.
+                It's truly a weapon at hackathons because it doesn't take much time to build one, yet the results are so 
+                appealing to the audience because of it's novelty.
+              </p>
+              <p>
+                <b>We won best overall!</b> This was the first hackathon I've won and it was a great feeling.
+                There was some really great competition and projects, given that this was company-wide with over 300 engineers
+                participating. 
+              </p>
+            </div>
+            <div class="col-md-4">
+              <img class="photo" src="./estimote.jpg">
+              <i class="text-center">
+                Estimote Beacons used for IoT proximity tracking via Bluetooth.
+              </i>
+            </div>
+          </div>
+        </div>
+  </div>
+
+
 
   <footer>
     <div class="container">

@@ -18,7 +18,14 @@
 }
 
 .photo-wide {
-  max-width: 500px;
+  max-width: 475px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.photo-wide-xs {
+  max-width: 375px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -52,13 +59,20 @@
 } */
 
 .app-link {
-  width: 200px;
+  width: 150px;
   display: inline-block;
 }
 
 .app-link-apple {
-  min-width: 180px;
-  width: 180px;
+  min-width: 140px;
+  width: 140px;
+  display: inline-block;
+  padding: 10px;
+}
+
+.app-link-bb {
+  min-width: 130px;
+  width: 130px;
   display: inline-block;
   padding: 10px;
 }
@@ -66,6 +80,12 @@
 .h3-top {
   border-top: 1px solid;
   padding-top: 15px;
+}
+
+.weblink {
+  padding-left: 10px;
+  font-size: 16px;
+  font-style: bold;
 }
 
 /* MARKETING
@@ -95,6 +115,10 @@
 
 .icon-color {
   color: #D9D9D9
+}
+
+.date-text {
+  color: #52658F;
 }
 
 
