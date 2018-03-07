@@ -121,6 +121,15 @@
   color: #52658F;
 }
 
+.toc {
+  list-style: outside none none !important;
+  padding-bottom: 10px;
+}
+
+.red-text {
+  color: red;
+}
+
 
 /* STICKY FOOTER
 -------------------------------------------------- */
